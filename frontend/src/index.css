@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #ecfdf5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure background color changes at the root level for dark mode */
+html.dark {
+  background-color: #111827; /* gray-900 */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  @apply transition-colors duration-300;
+}
+
+#root {
+  width: 100%;
+}
+
+@layer components {
+  .glass {
+    @apply bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg border border-white border-opacity-30 shadow-xl;
+  }
+  
+  .dark .glass {
+    @apply bg-gray-900 bg-opacity-40 border-gray-700 border-opacity-30 shadow-2xl;
+  }
+
+  .btn-primary {
+    @apply bg-rural hover:bg-rural-dark text-white font-bold py-4 px-8 rounded-2xl shadow-lg transition-all transform hover:scale-105 active:scale-95 flex items-center justify-center gap-3;
+  }
+
+  .btn-secondary {
+    @apply bg-white dark:bg-gray-800 text-rural-dark dark:text-gray-100 font-bold py-4 px-8 rounded-2xl shadow-md border-2 border-rural hover:bg-rural-light dark:hover:bg-gray-700 transition-all transform hover:scale-105 active:scale-95 flex items-center justify-center gap-3;
+  }
+
+  .card {
+    @apply glass rounded-3xl p-6 transition-all hover:shadow-2xl;
+  }
+
+  .dark .card {
+    @apply bg-gray-800 bg-opacity-50 border-gray-700;
+  }
+}
+
+/* For illiterate users - pulse animation on primary actions */
+@keyframes soft-pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+.pulse-primary {
+  animation: soft-pulse 2s infinite;
+}

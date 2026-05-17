@@ -1,0 +1,93 @@
+{
+  "farming": {
+    "en": [
+      "For rice crops, ensure proper drainage to prevent root rot.",
+      "Organic fertilizers like Neem Cake improve soil health significantly.",
+      "Rotate wheat crops with legumes to naturally fix nitrogen in your soil.",
+      "Early morning is the best time for irrigation to minimize water loss.",
+      "Use pheromone traps for pest control without harmful chemicals."
+    ],
+    "hi": [
+      "चावल की फसलों के लिए, जड़ सड़न को रोकने के लिए उचित जल निकासी सुनिश्चित करें।",
+      "नीम केक जैसे जैविक उर्वरक मिट्टी के स्वास्थ्य में काफी सुधार करते हैं।",
+      "मिट्टी में प्राकृतिक रूप से नाइट्रोजन स्थिर करने के लिए गेहूं की फसलों को फलियों के साथ बदलें।",
+      "पानी के नुकसान को कम करने के लिए सिंचाई का सबसे अच्छा समय सुबह जल्दी है।",
+      "हानिकारक रसायनों के बिना कीट नियंत्रण के लिए फेरोमोन जाल का उपयोग करें।"
+    ],
+    "bn": [
+      "ধানের ফসলের জন্য, শিকড় পচা রোধ করতে সঠিক নিষ্কাশন নিশ্চিত করুন।",
+      "নিমের খোলের মতো জৈব সার মাটির স্বাস্থ্যের উল্লেখযোগ্য উন্নতি করে।",
+      "মাটিতে প্রাকৃতিক নাইট্রোজেন বাড়াতে গমের ফসলের সাথে ডাল শস্য চাষ করুন।",
+      "জলের অপচয় কমাতে সেচের সবচেয়ে ভালো সময় হল খুব সকাল।",
+      "ক্ষতিকারক রাসায়নিক ছাড়াই পোকা দমনের জন্য ফেরোমন ট্র্যাপ ব্যবহার করুন।"
+    ]
+  },
+  "emergency": {
+    "en": [
+      "Stay calm. Contact local authorities immediately at 100 for police or 108 for medical help.",
+      "Keep an emergency kit ready with essential medicines and bandages.",
+      "In case of snake bite, do not panic. Keep the limb still and move to the nearest hospital."
+    ],
+    "hi": [
+      "शांत रहें। पुलिस के लिए 100 या चिकित्सा सहायता के लिए 108 पर तुरंत संपर्क करें।",
+      "आवश्यक दवाओं और पट्टियों के साथ एक आपातकालीन किट तैयार रखें।",
+      "सांप के काटने की स्थिति में घबराएं नहीं। अंग को स्थिर रखें और नजदीकी अस्पताल जाएं।"
+    ],
+    "bn": [
+      "শান্ত থাকুন। পুলিশের জন্য ১০০ বা চিকিৎসার জন্য ১০৮ নম্বরে যোগাযোগ করুন।",
+      "প্রয়োজনীয় ওষুধ এবং ব্যান্ডেজ সহ একটি জরুরি কিট তৈরি রাখুন।",
+      "সাপ কামড়ালে আতঙ্কিত হবেন না। অঙ্গটি স্থির রাখুন এবং নিকটস্থ হাসপাতালে যান।"
+    ]
+  },
+  "govt": {
+    "en": [
+      "PM-Kisan scheme provides ₹6,000 yearly to small farmers in three installments.",
+      "Fasal Bima Yojana offers insurance cover against crop loss due to natural calamities.",
+      "Kisan Credit Card provides low-interest loans for your agricultural needs."
+    ],
+    "hi": [
+      "पीएम-किसान योजना छोटे किसानों को तीन किश्तों में सालाना ₹6,000 प्रदान करती है।",
+      "फसल बीमा योजना प्राकृतिक आपदाओं के कारण फसल के नुकसान के खिलाफ बीमा कवर प्रदान करती है।",
+      "किसान क्रेडिट कार्ड आपकी कृषि आवश्यकताओं के लिए कम ब्याज पर ऋण प्रदान करता है।"
+    ],
+    "bn": [
+      "প্রধানমন্ত্রী কিষাণ যোজনা ক্ষুদ্র চাষীদের তিনটি কিস্তিতে বার্ষিক ৬,০০০ টাকা দেয়।",
+      "ফসল বীমা যোজনা প্রাকৃতিক বিপর্যয়ের কারণে ফসলের ক্ষতির বিরুদ্ধে বিমা দেয়।",
+      "কিষাণ ক্রেডিট কার্ড আপনার চাষাবাদের প্রয়োজনে কম সুদে ঋণ দেয়।"
+    ]
+  },
+  "greeting": {
+    "en": [
+      "Hello! How can I help you today?",
+      "Namaste! I am AI SATHI. What can I do for you?",
+      "Hi there! Ready to assist you with your farming needs."
+    ],
+    "hi": [
+      "नमस्ते! आज मैं आपकी क्या मदद कर सकता हूँ?",
+      "नमस्ते! मैं एआई साथी हूँ। मैं आपके लिए क्या कर सकता हूँ?",
+      "नमस्ते! आपकी खेती की जरूरतों में सहायता के लिए तैयार हूँ।"
+    ],
+    "bn": [
+      "নমস্কার! আজ আমি আপনাকে কীভাবে সাহায্য করতে পারি?",
+      "নমস্কার! আমি এআই সাথী। আমি আপনার জন্য কী করতে পারি?",
+      "নমস্কার! আপনার চাষাবাদের প্রয়োজনে সাহায্য করতে আমি তৈরি।"
+    ]
+  },
+  "casual": {
+    "en": [
+      "I understand. Tell me more about your crops.",
+      "That's interesting! How has the weather been lately?",
+      "I see. Is there anything specific about farming you'd like to discuss?"
+    ],
+    "hi": [
+      "मैं समझता हूँ। मुझे अपनी फसलों के बारे में और बताएं।",
+      "यह दिलचस्प है! हाल ही में मौसम कैसा रहा है?",
+      "जी। क्या खेती के बारे में कुछ खास है जिस पर आप चर्चा करना चाहेंगे?"
+    ],
+    "bn": [
+      "আমি বুঝতে পারছি। আপনার ফসল সম্পর্কে আমাকে আরও বলুন।",
+      "এটা বেশ কৌতূহলোদ্দীপক! ইদানীং আবহাওয়া কেমন চলছে?",
+      "বুঝলাম। চাষাবাদ নিয়ে কি বিশেষ কিছু আলোচনার আছে?"
+    ]
+  }
+}
